@@ -17,10 +17,14 @@ public class ShipDemo {
             new CruiseShip(100, "Silver Wave", "2012"),
             new CargoShip("Blue Horizon", "1998", 50000),
             new CruiseShip(900, "Northern Star", "2004")
+
+            //This change was made by Vikyatha Komandla on 02/05/2025
         };
 
         for (Ship ship : arrayShip) {
             ship.display();
+            //This change was made by Vikyatha Komandla on 02/05/2025
+
         }
 
         // Arraylist of ships
@@ -44,11 +48,17 @@ public class ShipDemo {
         if (cruiseShip.getName().equals(copyOfCruiseShip.getName())) {
             System.out.println("These cruise ships are the exact same");
         }
+
+        //This change was made by Vikyatha Komandla on 02/05/2025
+
+
         CargoShip cargoShip = new CargoShip("Sally Sea", "2001", 50000);
         CargoShip copyOfCargoShip = new CargoShip(cargoShip);
         if (cargoShip.getName().equals(copyOfCargoShip.getName())) {
             System.out.println("These cargo ships are the exact same");
         }
+
+        //This change was made by Vikyatha Komandla on 02/05/2025
 
     }
 
