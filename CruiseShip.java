@@ -14,20 +14,24 @@ public class CruiseShip extends Ship {
         super(name, yearBuilt);
         setPassangers(passangers);
     }
+    // comment made by Zaki Ahmed 02/04/2025
 
 //copy constructors
     public CruiseShip(CruiseShip c) {
         super(c.getName(), c.getYearBuilt());
         passangers = c.getPassangers();
     }
+    // comment made by Zaki Ahmed 02/04/2025
 
     public void setPassangers(int passangers) {
         this.passangers = passangers;
     }
+    // comment made by Zaki Ahmed 02/04/2025
 
     public int getPassangers() {
         return passangers;
     }
+    // comment made by Zaki Ahmed 02/04/2025
 
     //toString
     @Override
@@ -37,6 +41,7 @@ public class CruiseShip extends Ship {
                 + "\n";
         return str;
     }
+    // comment made by Zaki Ahmed 02/04/2025
 
     //display
     @Override
