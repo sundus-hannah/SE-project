@@ -10,13 +10,13 @@ public class CargoShip extends Ship {
 
     private int tonnage;
 
-    //constructor
+    //constructor 
     public CargoShip(String name, String yearBuilt, int tonnage) {
         super(name, yearBuilt);
         this.tonnage = tonnage;
     }
 
-//copy constructors
+//added a copy constructor - Sundus Tosun 02-06-2025
     public CargoShip(CargoShip t) {
         super(t.getName(), t.getYearBuilt());
         tonnage = t.tonnage;
