@@ -13,41 +13,37 @@ abstract class Ship implements Displayable {
     public Ship(String name, String yearBuilt) {
         setName(name);
         setyearBuilt(yearBuilt);
-        //this change is made by Wilson Cheng 02/04/2025
+        System.out.println("this change is made by Wilson Cheng 02/04/2025 in the Ship");
     }
 
     public String getName() {
+        System.out.println("this change is made by Wilson Cheng 02/04/2025 in the getName");
         return name;
-        //this change is made by Wilson Cheng 02/04/2025
     }
 
     public String getYearBuilt() {
+        System.out.println("this change is made by Wilson Cheng 02/04/2025 in the getyearBuilt");
         return yearBuilt;
-        //this change is made by Wilson Cheng 02/04/2025
     }
 
     public void setName(String name) {
         this.name = name;
-        //this change is made by Wilson Cheng 02/04/2025
+        System.out.println("this change is made by Wilson Cheng 02/04/2025 in the setName");
     }
 
     public void setyearBuilt(String yearBuilt) {
         this.yearBuilt = yearBuilt;
-        //this change is made by Wilson Cheng 02/04/2025
+        //
+        System.out.println("this change is made by Wilson Cheng 02/04/2025 in the setyearBuilt");
     }
 
     //toString
     @Override
     public String toString() {
         String str = "The ship name: " + getName()
-                + "\nThe year it was built: " + getYearBuilt();
+                + "\nThe year it was built: " + getYearBuilt() + "\tthis change is made by Wilson Cheng 02/04/2025";
         return str;
-        //this change is made by Wilson Cheng 02/04/2025
-        //this change is made by Wilson Cheng 02/04/2025
-        //this change is made by Wilson Cheng 02/04/2025
-        //this change is made by Wilson Cheng 02/04/2025
-        //this change is made by Wilson Cheng 02/04/2025
-        //this change is made by Wilson Cheng 02/04/2025
+
     }
 
 }
